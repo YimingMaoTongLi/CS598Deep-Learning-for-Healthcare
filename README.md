@@ -46,8 +46,11 @@ To compare the performance of these models, we used precision rate, retaintion r
 
 # Cite
 
-The paper does not provide any code. All the codes are provided by our group. 
+The paper does not provide any code. All the codes are provided by our group. However, we used two mapping tables.
 
+ndc2rxnorm_mapping.txt:  https://github.com/sjy1203/GAMENet/blob/master/data/ndc2rxnorm_mapping.txt
+
+ndc2atc_level4.csv: https://github.com/sjy1203/GAMENet/blob/master/data/ndc2atc_level4.csv
 
 
 
