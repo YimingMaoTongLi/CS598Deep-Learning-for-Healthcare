@@ -15,7 +15,7 @@ This repository contains code necessary to run the final project of CS 598 Deep 
 In ./data, you will find the well-preprocessed data in pickle form. We can also re-generate the data as follows:
 
 1. Download MIMIC data and put DIAGNOSES_ICD.csv and PRESCRIPTIONS.csv in ./data/
-2. run the code ./data/
+2. run the code in ./code/. Please run preprocess first, and you can then any files thereafter.
 
 Please note: We only download the DIAGNOSES_ICD.csv and put in github because PRESCRIPTIONS.csv is too big (700+ mb).  Github does not allow any file larger than 25 mb.
 
