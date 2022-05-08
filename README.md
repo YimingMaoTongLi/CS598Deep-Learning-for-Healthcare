@@ -22,6 +22,15 @@ Please note: We only download the DIAGNOSES_ICD.csv and put in github because PR
 
 In ./code, you will find all the code needed for this project. In addition to the pre-process code, there are 3 files and they are RNN, RETAIN, and Crossover rention models (3 models)
 
+Data information in ./data:
+
+
+seq.pkl: This is the major dataset for this project. It is a list of list. The list contains patients and each patients contains vist.
+pids.pkl:
+rtypes.pkl:
+types.pkl:
+vids.pkl:
+
 # Model Comparation
 
 
