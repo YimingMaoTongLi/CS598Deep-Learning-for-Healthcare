@@ -12,6 +12,34 @@ This repository contains code necessary to run the final project of CS 598 Deep 
 
 # Running the Code
 
+In ./data, you will find the well-preprocessed data in pickle form. We can also re-generate the data as follows:
+
+1. Download MIMIC data and put DIAGNOSES_ICD.csv and PRESCRIPTIONS.csv in ./data/
+2. run the code ./data/
+
+Please note: We only download the DIAGNOSES_ICD.csv and put in github because PRESCRIPTIONS.csv is too big (700+ mb).  Github does not allow any file larger than 25 mb.
+
+
+In ./code, you will find all the code needed for this project. In addition to the pre-process code, there are 3 files and they are RNN, RETAIN, and Crossover rention models (3 models)
+
+# Model Comparation
+
+
+RETAIN can provide sequential prediction of medication combination based on a two-level neural attention model that detects influential past visits and significant clinical variables within those visits.
+
+
+To compare the performance of these models, we used precision rate, retaintion rate as well as F1 score. 
+
+
+# Cite
+
+The paper does not provide any code. All the codes are provided by our group. 
+
+
+
+
+
+
 
 
 
