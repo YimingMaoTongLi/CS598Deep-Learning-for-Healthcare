@@ -26,10 +26,10 @@ Data information in ./data:
 
 
 seq.pkl: This is the major dataset for this project. It is a list of list. The list contains patients and each patients contains vist.
-pids.pkl:
-rtypes.pkl:
-types.pkl:
-vids.pkl:
+pids.pkl: This contains the patient ID
+rtypes.pkl: This contains the event ID
+types.pkl: This contains the event ID's index
+vids.pkl: This contains the visit ID
 
 # Model Comparation
 
